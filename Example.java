@@ -1,6 +1,6 @@
-public class Example{ 
+cyhoedd dosbarth Example{ 
 
-    public static void main(String[] args){ 
+    cyhoedd sefydlog ddi-rym main(String[] args){ 
         System.out.println("helo!"); 
     } 
 } 
