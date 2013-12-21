@@ -7,9 +7,10 @@ sub parse_source{
     $new_source = "";
     while(<sourcefile>){
         chomp;
-#        @tokens = split(/ |\)|\(|{|}|;/, $_);
+#        @tokens = split(/ |\)|\(|{|}|;/, $_);        
         @tokens = split(/ /, $_);
         for $i(0 .. $#tokens){
+            $phrase = "";
             $phrase = @tokens[$i];
             if (exists $keywords{$phrase}){
                 $phrase = $keywords{$phrase};
