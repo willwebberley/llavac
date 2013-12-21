@@ -1,6 +1,6 @@
-#!/usr/bin/perl
+, "terfynol" => "final"#!/usr/bin/perl
 
-%keywords = ("cyhoedd" => "public", "sefydlog" => "static", "ddi-rym" => "void", "dosbarth" => "class");
+%keywords = ("cyhoedd" => "public", "sefydlog" => "static", "ddi-rym" => "void", "dosbarth" => "class", "deuol" => "boolean", "tor" => "break", "cyflwr" => "case", "gwneud" => "do", "terfynol" => "final");
 
 sub parse_source{
     open(sourcefile, $_[0]);
