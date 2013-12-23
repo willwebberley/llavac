@@ -1,4 +1,4 @@
-, "terfynol" => "final"#!/usr/bin/perl
+#!/usr/bin/perl
 
 %keywords = ("cyhoedd" => "public", "sefydlog" => "static", "ddi-rym" => "void", "dosbarth" => "class", "deuol" => "boolean", "tor" => "break", "cyflwr" => "case", "gwneud" => "do", "terfynol" => "final");
 
